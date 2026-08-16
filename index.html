@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NEXORA — Digital Agency | Web Development &amp; Design Studio</title>
+<meta name="description" content="NEXORA is a premium digital agency building fast, modern, conversion-focused websites for ambitious businesses.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ BACKGROUND GRID + GLOW LAYER ============ -->
+<div class="bg-grid" aria-hidden="true"></div>
+<div class="bg-glow bg-glow--one" aria-hidden="true"></div>
+<div class="bg-glow bg-glow--two" aria-hidden="true"></div>
+
+<!-- ============ NAVBAR ============ -->
+<header class="navbar" id="navbar">
+  <div class="container navbar__inner">
+    <a href="#home" class="navbar__logo">
+      <span class="navbar__logo-mark">N</span>
+      <span class="navbar__logo-text">NEXORA</span>
+    </a>
+
+    <nav class="navbar__links" id="navLinks">
+      <a href="#home" class="navbar__link">Home</a>
+      <a href="#services" class="navbar__link">Services</a>
+      <a href="#projects" class="navbar__link">Projects</a>
+      <a href="#about" class="navbar__link">About</a>
+      <a href="#testimonials" class="navbar__link">Testimonials</a>
+      <a href="#contact" class="navbar__link">Contact</a>
+    </nav>
+
+    <div class="navbar__actions">
+      <a href="#contact" class="btn btn--primary btn--sm">Get Started</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#home" class="mobile-menu__link">Home</a>
+    <a href="#services" class="mobile-menu__link">Services</a>
+    <a href="#projects" class="mobile-menu__link">Projects</a>
+    <a href="#about" class="mobile-menu__link">About</a>
+    <a href="#testimonials" class="mobile-menu__link">Testimonials</a>
+    <a href="#contact" class="mobile-menu__link">Contact</a>
+    <a href="#contact" class="btn btn--primary mobile-menu__cta">Get Started</a>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="home">
+    <div class="container hero__inner">
+      <div class="hero__content reveal">
+        <div class="eyebrow">
+          <span class="eyebrow__dot"></span>
+          Available for new projects
+        </div>
+
+        <h1 class="hero__heading">
+          Build Something <span class="text-gradient">Extraordinary.</span>
+        </h1>
+
+        <p class="hero__desc">
+          We create fast, modern and conversion-focused websites that help businesses stand out in the digital world.
+        </p>
+
+        <div class="hero__actions">
+          <a href="#contact" class="btn btn--primary btn--lg">
+            Start a Project
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3.5 8H12.5M12.5 8L8.5 4M12.5 8L8.5 12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <a href="#projects" class="btn btn--ghost btn--lg">View Our Work</a>
+        </div>
+
+        <div class="hero__clients">
+          <span class="hero__clients-label">Trusted by growing teams at</span>
+          <div class="hero__clients-row">
+            <span>Fintra</span><span>Orbiton</span><span>Luma Retail</span><span>Vantage</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__visual reveal">
+        <div class="orbit-panel">
+          <div class="orbit-panel__glass">
+            <div class="orbit" aria-hidden="true">
+              <div class="orbit__ring orbit__ring--1"></div>
+              <div class="orbit__ring orbit__ring--2"></div>
+              <div class="orbit__ring orbit__ring--3"></div>
+              <div class="orbit__core">
+                <svg width="30" height="30" viewBox="0 0 24 24" fill="none"><path d="M12 2L14.5 9.5L22 12L14.5 14.5L12 22L9.5 14.5L2 12L9.5 9.5L12 2Z" fill="url(#coreGrad)"/><defs><linearGradient id="coreGrad" x1="2" y1="2" x2="22" y2="22"><stop stop-color="#4F8CFF"/><stop offset="1" stop-color="#8B5CF6"/></linearGradient></defs></svg>
+              </div>
+              <div class="orbit__node orbit__node--1"></div>
+              <div class="orbit__node orbit__node--2"></div>
+              <div class="orbit__node orbit__node--3"></div>
+              <div class="orbit__node orbit__node--4"></div>
+            </div>
+          </div>
+
+          <!-- Floating stat cards -->
+          <div class="float-card float-card--1">
+            <div class="float-card__icon float-card__icon--blue">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M13 2L3 14H11L11 22L21 10H13L13 2Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+            </div>
+            <div>
+              <div class="float-card__value">98%</div>
+              <div class="float-card__label">Performance</div>
+            </div>
+          </div>
+
+          <div class="float-card float-card--2">
+            <div class="float-card__icon float-card__icon--purple">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="7" height="7" rx="1.5" stroke="currentColor" stroke-width="1.8"/><rect x="14" y="3" width="7" height="7" rx="1.5" stroke="currentColor" stroke-width="1.8"/><rect x="3" y="14" width="7" height="7" rx="1.5" stroke="currentColor" stroke-width="1.8"/><rect x="14" y="14" width="7" height="7" rx="1.5" stroke="currentColor" stroke-width="1.8"/></svg>
+            </div>
+            <div>
+              <div class="float-card__value">50+</div>
+              <div class="float-card__label">Projects</div>
+            </div>
+          </div>
+
+          <div class="float-card float-card--3">
+            <div class="float-card__icon float-card__icon--blue">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M3 17L9 11L13 15L21 7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M15 7H21V13" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <div>
+              <div class="float-card__value">+42%</div>
+              <div class="float-card__label">Conversion</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SERVICES ============ -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="eyebrow eyebrow--center">Services</div>
+        <h2 class="section-title">Everything You Need to Build Your Digital Presence</h2>
+        <p class="section-desc">From first pixel to production launch, our team covers every layer of a modern web presence.</p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <div class="service-card__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M16 18L22 12L16 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 6L2 12L8 18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3 class="service-card__title">Web Development</h3>
+          <p class="service-card__desc">Custom-built websites using clean, scalable code — fast, secure and made to grow with your business.</p>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-card__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 19L19 12L22 15L15 22L12 19Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M18 13L16.5 5.5L2 2L5.5 16.5L13 18L18 13Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M2 2L9.5 9.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="10.5" cy="10.5" r="1.5" stroke="currentColor" stroke-width="1.8"/></svg>
+          </div>
+          <h3 class="service-card__title">UI/UX Design</h3>
+          <p class="service-card__desc">Interfaces designed around real user behaviour — intuitive, on-brand and built to convert visitors.</p>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-card__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="12" rx="2" stroke="currentColor" stroke-width="1.8"/><path d="M8 20H16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M12 16V20" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+          </div>
+          <h3 class="service-card__title">Landing Pages</h3>
+          <p class="service-card__desc">High-converting single pages engineered for campaigns, launches and lead generation.</p>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-card__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><circle cx="9" cy="20" r="1.4" stroke="currentColor" stroke-width="1.8"/><circle cx="18" cy="20" r="1.4" stroke="currentColor" stroke-width="1.8"/><path d="M2 3H4.5L7 15H19L21.5 6.5H5.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3 class="service-card__title">E-commerce</h3>
+          <p class="service-card__desc">Online stores with smooth checkout flows, product catalogs and payment integrations that sell.</p>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-card__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M13 2L3 14H11L11 22L21 10H13L13 2Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+          </div>
+          <h3 class="service-card__title">Website Optimization</h3>
+          <p class="service-card__desc">Speed, SEO and Core Web Vitals tuning that turns a slow site into a fast, discoverable one.</p>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-card__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 2L14.5 9.5L22 12L14.5 14.5L12 22L9.5 14.5L2 12L9.5 9.5L12 2Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+          </div>
+          <h3 class="service-card__title">Maintenance &amp; Support</h3>
+          <p class="service-card__desc">Ongoing updates, monitoring and priority support so your site stays fast, safe and current.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PORTFOLIO ============ -->
+  <section class="portfolio" id="projects">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="eyebrow eyebrow--center">Portfolio</div>
+        <h2 class="section-title">Selected Projects</h2>
+        <p class="section-desc">A snapshot of recent work across fintech, retail, real estate and SaaS.</p>
+      </div>
+
+      <div class="portfolio-grid">
+        <article class="project-card reveal">
+          <div class="project-card__image project-card__image--fintech">
+            <div class="mock mock--fintech">
+              <div class="mock__bar"></div>
+              <div class="mock__row">
+                <div class="mock__stat"></div>
+                <div class="mock__stat"></div>
+              </div>
+              <div class="mock__chart">
+                <span></span><span></span><span></span><span></span><span></span><span></span>
+              </div>
+            </div>
+          </div>
+          <div class="project-card__body">
+            <span class="project-card__category">Fintech</span>
+            <h3 class="project-card__title">Fintech Dashboard</h3>
+            <p class="project-card__desc">A real-time analytics dashboard for a payments platform, built for clarity under pressure.</p>
+            <a href="#" class="project-card__link">View Project
+              <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3.5 8H12.5M12.5 8L8.5 4M12.5 8L8.5 12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-card__image project-card__image--ecommerce">
+            <div class="mock mock--ecommerce">
+              <div class="mock__grid">
+                <div class="mock__product"></div>
+                <div class="mock__product"></div>
+                <div class="mock__product"></div>
+                <div class="mock__product"></div>
+              </div>
+            </div>
+          </div>
+          <div class="project-card__body">
+            <span class="project-card__category">E-commerce</span>
+            <h3 class="project-card__title">E-commerce Store</h3>
+            <p class="project-card__desc">A conversion-focused storefront with a streamlined checkout that lifted sales significantly.</p>
+            <a href="#" class="project-card__link">View Project
+              <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3.5 8H12.5M12.5 8L8.5 4M12.5 8L8.5 12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-card__image project-card__image--realestate">
+            <div class="mock mock--realestate">
+              <div class="mock__hero"></div>
+              <div class="mock__listing"></div>
+              <div class="mock__listing"></div>
+            </div>
+          </div>
+          <div class="project-card__body">
+            <span class="project-card__category">Real Estate</span>
+            <h3 class="project-card__title">Real Estate Platform</h3>
+            <p class="project-card__desc">A listings platform with map search and saved favourites, designed for effortless browsing.</p>
+            <a href="#" class="project-card__link">View Project
+              <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3.5 8H12.5M12.5 8L8.5 4M12.5 8L8.5 12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-card__image project-card__image--saas">
+            <div class="mock mock--saas">
+              <div class="mock__headline"></div>
+              <div class="mock__subline"></div>
+              <div class="mock__cta"></div>
+            </div>
+          </div>
+          <div class="project-card__body">
+            <span class="project-card__category">SaaS</span>
+            <h3 class="project-card__title">SaaS Landing Page</h3>
+            <p class="project-card__desc">A high-converting landing page for a B2B SaaS launch, focused on clarity and trust signals.</p>
+            <a href="#" class="project-card__link">View Project
+              <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3.5 8H12.5M12.5 8L8.5 4M12.5 8L8.5 12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ STATISTICS ============ -->
+  <section class="stats">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat reveal">
+          <div class="stat__value" data-count="50" data-suffix="+">0</div>
+          <div class="stat__label">Projects Delivered</div>
+        </div>
+        <div class="stat reveal">
+          <div class="stat__value" data-count="30" data-suffix="+">0</div>
+          <div class="stat__label">Happy Clients</div>
+        </div>
+        <div class="stat reveal">
+          <div class="stat__value" data-count="98" data-suffix="%">0</div>
+          <div class="stat__label">Satisfaction</div>
+        </div>
+        <div class="stat reveal">
+          <div class="stat__value" data-count="3" data-suffix="+">0</div>
+          <div class="stat__label">Years Experience</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="about" id="about">
+    <div class="container about__inner">
+      <div class="about__content reveal">
+        <div class="eyebrow">About Nexora</div>
+        <h2 class="section-title section-title--left">We Turn Ideas Into Digital Experiences</h2>
+        <p class="about__desc">
+          NEXORA is a digital agency built for founders and teams who need more than a website — they need a growth
+          asset. We combine strategic design with clean engineering to ship products that look sharp, load fast and
+          convert consistently, from the first sketch to the final deploy.
+        </p>
+
+        <ul class="feature-list">
+          <li class="feature-list__item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M4 12L9 17L20 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Clean &amp; Modern Design
+          </li>
+          <li class="feature-list__item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M4 12L9 17L20 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Fully Responsive
+          </li>
+          <li class="feature-list__item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M4 12L9 17L20 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Fast Performance
+          </li>
+          <li class="feature-list__item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M4 12L9 17L20 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            SEO Friendly
+          </li>
+          <li class="feature-list__item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M4 12L9 17L20 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Secure &amp; Scalable
+          </li>
+        </ul>
+      </div>
+
+      <div class="about__visual reveal">
+        <div class="about-card">
+          <div class="about-card__glow"></div>
+          <div class="about-card__row">
+            <span class="about-card__dot about-card__dot--red"></span>
+            <span class="about-card__dot about-card__dot--yellow"></span>
+            <span class="about-card__dot about-card__dot--green"></span>
+          </div>
+          <div class="about-card__line about-card__line--1"></div>
+          <div class="about-card__line about-card__line--2"></div>
+          <div class="about-card__line about-card__line--3"></div>
+          <div class="about-card__badge">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 2L14.5 9.5L22 12L14.5 14.5L12 22L9.5 14.5L2 12L9.5 9.5L12 2Z" fill="url(#aboutGrad)"/><defs><linearGradient id="aboutGrad" x1="2" y1="2" x2="22" y2="22"><stop stop-color="#4F8CFF"/><stop offset="1" stop-color="#8B5CF6"/></linearGradient></defs></svg>
+            <span>Built with precision</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROCESS ============ -->
+  <section class="process">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="eyebrow eyebrow--center">How We Work</div>
+        <h2 class="section-title">A Process Built for Clarity</h2>
+        <p class="section-desc">Four stages, always in the same order, so you always know what's next.</p>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline__line" aria-hidden="true"></div>
+
+        <div class="timeline-step reveal">
+          <div class="timeline-step__number">01</div>
+          <h3 class="timeline-step__title">Discover</h3>
+          <p class="timeline-step__desc">We learn your business, your users and your goals before a single pixel is placed.</p>
+        </div>
+
+        <div class="timeline-step reveal">
+          <div class="timeline-step__number">02</div>
+          <h3 class="timeline-step__title">Design</h3>
+          <p class="timeline-step__desc">Wireframes evolve into a polished visual system tailored to your brand.</p>
+        </div>
+
+        <div class="timeline-step reveal">
+          <div class="timeline-step__number">03</div>
+          <h3 class="timeline-step__title">Develop</h3>
+          <p class="timeline-step__desc">Clean, performant code brings the design to life across every device.</p>
+        </div>
+
+        <div class="timeline-step reveal">
+          <div class="timeline-step__number">04</div>
+          <h3 class="timeline-step__title">Launch</h3>
+          <p class="timeline-step__desc">We ship, monitor and stay on hand for whatever comes after launch day.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TESTIMONIALS ============ -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="eyebrow eyebrow--center">Testimonials</div>
+        <h2 class="section-title">Trusted by Teams Who Ship</h2>
+        <p class="section-desc">A few words from clients we've built with.</p>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card reveal">
+          <div class="testimonial-card__quote-mark">"</div>
+          <p class="testimonial-card__text">NEXORA rebuilt our marketing site in three weeks and our demo requests nearly doubled the following month. They actually understood what we were trying to sell.</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">RH</div>
+            <div>
+              <div class="testimonial-card__name">Ravi Hutchins</div>
+              <div class="testimonial-card__role">Founder, Fintra</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal">
+          <div class="testimonial-card__quote-mark">"</div>
+          <p class="testimonial-card__text">Communication was clear from day one, revisions were fast, and the final build was noticeably faster than our old site. Exactly the kind of partner we needed.</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">SM</div>
+            <div>
+              <div class="testimonial-card__name">Sofia Marchetti</div>
+              <div class="testimonial-card__role">Head of Growth, Luma Retail</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal">
+          <div class="testimonial-card__quote-mark">"</div>
+          <p class="testimonial-card__text">We came in with a rough idea and left with a design system we still use today. The attention to detail on mobile alone was worth the investment.</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">DK</div>
+            <div>
+              <div class="testimonial-card__name">Daniel Kowalski</div>
+              <div class="testimonial-card__role">Product Lead, Vantage</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PRICING ============ -->
+  <section class="pricing">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="eyebrow eyebrow--center">Pricing</div>
+        <h2 class="section-title">Simple, Transparent Packages</h2>
+        <p class="section-desc">Choose the scope that fits where your business is today.</p>
+      </div>
+
+      <div class="pricing-grid">
+        <div class="pricing-card reveal">
+          <h3 class="pricing-card__name">Starter</h3>
+          <p class="pricing-card__tagline">For a focused, single-page presence</p>
+          <ul class="pricing-card__features">
+            <li>One-page website</li>
+            <li>Responsive design</li>
+            <li>Contact form</li>
+            <li>Basic SEO</li>
+          </ul>
+          <a href="#contact" class="btn btn--outline pricing-card__cta">Get Started</a>
+        </div>
+
+        <div class="pricing-card pricing-card--featured reveal">
+          <div class="pricing-card__badge">MOST POPULAR</div>
+          <h3 class="pricing-card__name">Professional</h3>
+          <p class="pricing-card__tagline">For growing businesses that need more</p>
+          <ul class="pricing-card__features">
+            <li>Up to 5 pages</li>
+            <li>Custom UI/UX</li>
+            <li>Responsive design</li>
+            <li>SEO optimization</li>
+            <li>Performance optimization</li>
+          </ul>
+          <a href="#contact" class="btn btn--primary pricing-card__cta">Get Started</a>
+        </div>
+
+        <div class="pricing-card reveal">
+          <h3 class="pricing-card__name">Business</h3>
+          <p class="pricing-card__tagline">For teams that need full control</p>
+          <ul class="pricing-card__features">
+            <li>Custom website</li>
+            <li>Advanced UI/UX</li>
+            <li>CMS integration</li>
+            <li>Advanced SEO</li>
+            <li>Priority support</li>
+          </ul>
+          <a href="#contact" class="btn btn--outline pricing-card__cta">Get Started</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="faq">
+    <div class="container faq__inner">
+      <div class="section-head section-head--left reveal">
+        <div class="eyebrow">FAQ</div>
+        <h2 class="section-title section-title--left">Questions, Answered</h2>
+        <p class="section-desc">Everything you might want to know before we start.</p>
+      </div>
+
+      <div class="faq-list reveal">
+        <div class="faq-item">
+          <button class="faq-item__question" aria-expanded="false">
+            How long does a typical project take?
+            <svg class="faq-item__icon" width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="faq-item__answer">
+            <p>Most landing pages take 1–2 weeks, while full multi-page sites typically run 3–5 weeks depending on scope and how quickly feedback comes back to us.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-item__question" aria-expanded="false">
+            What do you need from me to get started?
+            <svg class="faq-item__icon" width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="faq-item__answer">
+            <p>A brief on your business and goals, any brand assets you already have, and rough content or copy. We can help fill in gaps during the Discover phase.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-item__question" aria-expanded="false">
+            Do you offer support after launch?
+            <svg class="faq-item__icon" width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="faq-item__answer">
+            <p>Yes. Every package includes a post-launch window for fixes, and our Business plan includes ongoing priority support for ongoing changes.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-item__question" aria-expanded="false">
+            Can you work with our existing brand guidelines?
+            <svg class="faq-item__icon" width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="faq-item__answer">
+            <p>Absolutely. If you already have brand colours, type or a style guide, we build within it. If not, we can help define one as part of the Design phase.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-item__question" aria-expanded="false">
+            What platforms do you build on?
+            <svg class="faq-item__icon" width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="faq-item__answer">
+            <p>We build with clean HTML/CSS/JS or a CMS like Webflow or WordPress depending on your team's needs — always optimised for speed and easy editing.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FINAL CTA ============ -->
+  <section class="final-cta">
+    <div class="container">
+      <div class="final-cta__card reveal">
+        <h2 class="final-cta__heading">Ready to Build Something Amazing?</h2>
+        <p class="final-cta__desc">Let's turn your idea into a website that makes an impact.</p>
+        <a href="#contact" class="btn btn--primary btn--lg">
+          Start Your Project
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3.5 8H12.5M12.5 8L8.5 4M12.5 8L8.5 12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="contact" id="contact">
+    <div class="container contact__inner">
+      <div class="section-head section-head--left reveal">
+        <div class="eyebrow">Contact</div>
+        <h2 class="section-title section-title--left">Let's Start Your Project</h2>
+        <p class="section-desc">Tell us a little about what you need — we typically reply within one business day.</p>
+
+        <div class="contact-info">
+          <div class="contact-info__item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M4 4H20V17C20 17.5523 19.5523 18 19 18H5C4.44772 18 4 17.5523 4 17V4Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M4.5 4.5L12 12L19.5 4.5" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>
+            hello@nexora.studio
+          </div>
+          <div class="contact-info__item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M8 3L5 6L6.5 10C7.5 12 9 13.5 11 14.5L15 16L18 13L22 14.5C22 18.5 18.5 22 14.5 22C7.6 22 2 16.4 2 9.5C2 5.5 5.5 2 8 3Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+            +1 (415) 555-0148
+          </div>
+        </div>
+      </div>
+
+      <form class="contact-form reveal" id="contactForm" novalidate>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your full name">
+          <span class="form-error" id="nameError"></span>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@company.com">
+          <span class="form-error" id="emailError"></span>
+        </div>
+
+        <div class="form-group">
+          <label for="projectType">Project Type</label>
+          <select id="projectType" name="projectType">
+            <option value="" disabled selected>Select a project type</option>
+            <option value="website">New Website</option>
+            <option value="ecommerce">E-commerce</option>
+            <option value="landing">Landing Page</option>
+            <option value="redesign">Redesign</option>
+            <option value="other">Other</option>
+          </select>
+          <span class="form-error" id="projectTypeError"></span>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Tell us about your project..."></textarea>
+          <span class="form-error" id="messageError"></span>
+        </div>
+
+        <button type="submit" class="btn btn--primary contact-form__submit">
+          Send Message
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3.5 8H12.5M12.5 8L8.5 4M12.5 8L8.5 12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+
+        <div class="form-success" id="formSuccess">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.7"/><path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Thanks — your message has been sent. We'll reply within one business day.
+        </div>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <a href="#home" class="navbar__logo">
+          <span class="navbar__logo-mark">N</span>
+          <span class="navbar__logo-text">NEXORA</span>
+        </a>
+        <p class="footer__desc">A digital agency building fast, modern websites that help ambitious businesses grow.</p>
+        <div class="footer__socials">
+          <a href="#" class="footer__social" aria-label="X / Twitter">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M4 4L20 20M20 4L4 20" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" style="display:none"/><path d="M20.5 5.5C19.8 5.9 19 6.2 18.2 6.3C19 5.8 19.6 5.1 19.9 4.2C19.2 4.6 18.4 4.9 17.6 5.1C16.9 4.4 15.9 4 14.9 4C12.8 4 11.2 5.9 11.7 8C8.7 7.8 6 6.3 4.2 4C3.3 5.6 3.8 7.6 5.3 8.6C4.7 8.6 4.1 8.4 3.6 8.1C3.6 9.8 4.8 11.4 6.5 11.7C6 11.9 5.4 11.9 4.9 11.8C5.4 13.3 6.8 14.4 8.4 14.4C7 15.4 5.3 15.9 3.5 15.8C5.1 16.8 7 17.4 9 17.4C15 17.4 18.3 12.4 18.1 7.9C18.8 7.4 19.4 6.8 19.9 6.1" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg>
+          </a>
+          <a href="#" class="footer__social" aria-label="LinkedIn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="2.5" stroke="currentColor" stroke-width="1.6"/><path d="M7.5 10V17" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><circle cx="7.5" cy="7" r="1" fill="currentColor"/><path d="M11.5 17V13.2C11.5 11.9 12.3 10.8 13.6 10.8C14.9 10.8 15.5 11.7 15.5 13.2V17" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <a href="#" class="footer__social" aria-label="Instagram">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.6"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor"/></svg>
+          </a>
+          <a href="#" class="footer__social" aria-label="Dribbble">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6"/><path d="M4 9.5C7.5 10.5 16 10.5 20 8.5M3.5 15C8 13.5 16.5 14.5 19.5 18.5M9 3.5C12 8 13 15 11 20.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer__col">
+        <h4 class="footer__heading">Quick Links</h4>
+        <a href="#home" class="footer__link">Home</a>
+        <a href="#projects" class="footer__link">Projects</a>
+        <a href="#about" class="footer__link">About</a>
+        <a href="#testimonials" class="footer__link">Testimonials</a>
+        <a href="#contact" class="footer__link">Contact</a>
+      </div>
+
+      <div class="footer__col">
+        <h4 class="footer__heading">Services</h4>
+        <a href="#services" class="footer__link">Web Development</a>
+        <a href="#services" class="footer__link">UI/UX Design</a>
+        <a href="#services" class="footer__link">E-commerce</a>
+        <a href="#services" class="footer__link">Website Optimization</a>
+        <a href="#services" class="footer__link">Maintenance &amp; Support</a>
+      </div>
+
+      <div class="footer__col">
+        <h4 class="footer__heading">Get in Touch</h4>
+        <a href="mailto:hello@nexora.studio" class="footer__link">hello@nexora.studio</a>
+        <a href="tel:+14155550148" class="footer__link">+1 (415) 555-0148</a>
+        <a href="#contact" class="footer__link">Start a Project →</a>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <p>© 2026 NEXORA Studio. All rights reserved.</p>
+      <p>Crafted with care, line by line.</p>
+    </div>
+  </div>
+</footer>
+
+<button class="back-to-top" id="backToTop" aria-label="Back to top">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 19V5M12 5L6 11M12 5L18 11" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</button>
+
+<script src="script.js"></script>
+</body>
+</html>
